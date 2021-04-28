@@ -17,59 +17,56 @@ inpNumberOne, inpNumberTwo, inpNumberThree, inpNumberFour = inputNumber.split(" 
 
 if str(inpNumberOne) == str(numberOne):
     count += 1
-
-if str(inpNumberTwo) == str(numberTwo):
+elif str(inpNumberOne) == str(numberTwo):
     count += 1
-
-if str(inpNumberThree) == str(numberThree):
+elif str(inpNumberOne) == str(numberThree):
     count += 1
-
-if str(inpNumberFour) == str(numberFour):
+elif str(inpNumberOne) == str(numberFour):
     count += 1
 
 #2
 
-if str(inpNumberOne) == str(numberFour):
-    count += 1
-
 if str(inpNumberTwo) == str(numberOne):
     count += 1
 
-if str(inpNumberThree) == str(numberTwo):
+elif str(inpNumberTwo) == str(numberTwo):
     count += 1
 
-if str(inpNumberFour) == str(numberThree):
+elif str(inpNumberTwo) == str(numberThree):
+    count += 1
+
+elif str(inpNumberTwo) == str(numberFour):
     count += 1
 
 #3
 
-if str(inpNumberOne) == str(numberThree):
+if str(inpNumberThree) == str(numberThree):
     count += 1
 
-if str(inpNumberTwo) == str(numberFour):
+elif str(inpNumberThree) == str(numberThree):
     count += 1
 
-if str(inpNumberThree) == str(numberOne):
+elif str(inpNumberThree) == str(numberThree):
     count += 1
 
-if str(inpNumberFour) == str(numberTwo):
+elif str(inpNumberThree) == str(numberThree):
     count += 1
 
 #4
 
-if str(inpNumberOne) == str(numberTwo):
+if str(inpNumberFour) == str(numberFour):
     count += 1
 
-if str(inpNumberTwo) == str(numberThree):
+elif str(inpNumberFour) == str(numberFour):
     count += 1
 
-if str(inpNumberThree) == str(numberFour):
+elif str(inpNumberFour) == str(numberFour):
     count += 1
 
-if str(inpNumberFour) == str(numberOne):
+elif str(inpNumberFour) == str(numberFour):
     count += 1
 
 print(count)
 
-if count > 3:
+if count == 4:
     print("Yay you did it woo yay shush")
