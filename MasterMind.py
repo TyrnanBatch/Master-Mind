@@ -9,8 +9,6 @@ numberTwo = random.randint(0, 9)
 numberThree = random.randint(0, 9)
 numberFour = random.randint(0, 9)
 
-print(str(numberOne) + " " + str(numberTwo) + " " + str(numberThree) + " " + str(numberFour))
-
 while stop < 2:
     inputNumber = input("Please input a Number from 0 0 0 0 - 9 9 9 9: ")
     inpNumberOne, inpNumberTwo, inpNumberThree, inpNumberFour = inputNumber.split(" ")    
